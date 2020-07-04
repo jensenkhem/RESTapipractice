@@ -1,0 +1,32 @@
+{
+  "name": "apitutorial",
+  "version": "1.0.0",
+  "description": "RESTful api practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jensenkhem/RESTapipractice.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Jensen Khemchandani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jensenkhem/RESTapipractice/issues"
+  },
+  "homepage": "https://github.com/jensenkhem/RESTapipractice#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21"
+  }
+}
