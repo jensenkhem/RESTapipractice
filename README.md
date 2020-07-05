@@ -1,2 +1,2 @@
 # RESTapipractice
-Practicing making a simple RESTapi
+My practice making a simple API, using a 'task' database
