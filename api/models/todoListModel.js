@@ -9,6 +9,10 @@ const TaskSchema = new Schema(
             type: String,
             required: "Please enter the name of the task!"
         },
+        description: {
+            type: String,
+            default: "Task to be completed."
+        },
         date_created: {
             type: Date,
             default: Date.now
